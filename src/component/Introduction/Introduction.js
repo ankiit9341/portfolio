@@ -4,14 +4,14 @@ import photo from '../../asset/myphoto.jpg'
 export default function Introduction() {
   return (
       <div className="intro">
-        <div className="left-part">
-            <span className='hello'>hello,</span>
-             <h1>I am <span className='frontend'>Ankit</span><br />
-                     Web Deve<span className='moving-part'>loper</span></h1>
-                     <p className='hello'>Frontend</p>
+        <div className="left-side">
+          <span className="hello">Hello,</span>
+          <h1 className='myself'>I am <span className="name">Ankit</span> <br />
+          Web Deve<span className="moving">loper</span></h1>
+          <span className="hello">Frontend</span>
         </div>
-        <div className="right-part">
-            <img className='my-photo' src={photo} alt="" />
+        <div className="right-side">
+          <img className='img-fluid' src={photo} alt="photo" />
         </div>
       </div>
   )
