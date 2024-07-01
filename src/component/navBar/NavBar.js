@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../asset/logo.png';
 import './NavBar.css'
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-scroll';
 
 export default function NavBar() {
@@ -8,7 +9,7 @@ export default function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container-fluid">
 
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" to="#">
         <img id='logo' src={logo} alt="logo" />
       </a>
 
@@ -19,16 +20,16 @@ export default function NavBar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link " aria-current="page" href="#">About</a>
+            <Link className="nav-link " aria-current="page" to="/about">About</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link " aria-current="page" href="#">Skills</a>
+            <Link className="nav-link " aria-current="page" to="/skills">Skills</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link contact" style={{color:'black'}} aria-current="page" href="#">Contact Me</a>
+            <Link className="nav-link contact" style={{color:'black'}} aria-current="page" to="/contact">Contact Me</Link>
           </li>
         </ul>
       </div>
