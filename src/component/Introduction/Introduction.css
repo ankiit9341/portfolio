@@ -1,0 +1,31 @@
+.intro{
+    display: flex;
+    justify-content: space-around;
+    height: calc(100vh-40px);
+}
+.left-part{
+    margin: auto auto;
+    min-width: 250px;
+}
+.right-part{
+    margin: auto auto;
+}
+.my-photo{
+    margin-top: 40px;
+    object-fit: cover;
+    box-shadow: 5px 5px 40px black;
+}
+.frontend{
+    color: chocolate;
+}
+.hello{
+    font-size: x-large;
+    font-weight: 700;
+}
+h1{
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px rgb(229, 94, 57);
+ }
+ .moving-part{
+    text-shadow: 2px 2px 5px rgb(102, 58, 45);
+ }

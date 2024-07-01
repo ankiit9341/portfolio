@@ -1,0 +1,50 @@
+.header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+#logo{
+    width:55px;
+    height: 40px;
+    object-fit:cover;
+}
+.navBAr{
+    padding: 13px;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 700px){    
+.nav-link-items{
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media screen and (max-width: 700px){    
+    .nav-link-items{
+        min-width: 180px;
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+.nav-items{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 0.4rem;
+    text-decoration: none;
+    transition: margin-right 2s ease-in-out .5s;
+}
+.nav-items:hover{
+    color: #2b918c;
+    border-bottom: 3px solid #2b918c;
+}
+.contactBtn{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 2rem;
+}
