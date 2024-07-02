@@ -29,7 +29,7 @@ export default function NavBar() {
             <Link className="nav-link " aria-current="page" to="/skills">Skills</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link contact" style={{color:'black'}} aria-current="page" to="/contact">Contact Me</Link>
+            <Link className="nav-link contact" style={{color:'black'}} aria-current="page" to="/contact"> <i class="fa-light fa-message-text"></i> Contact Me</Link>
           </li>
         </ul>
       </div>

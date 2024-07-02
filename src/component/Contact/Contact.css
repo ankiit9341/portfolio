@@ -1,0 +1,45 @@
+.contact-page{
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 1rem;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.your-name, .your-email, .message{
+    width: 70vw;
+    color: white;
+    max-width: 40rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(40,40,40);
+    margin: 0.5rem 1rem;
+
+}
+.submit{
+    margin-top: 0.5rem;
+    width: 6rem;
+    color: black;
+    background-color: white;
+    padding: .3rem;
+    border-radius: .5rem;
+}
+.links{
+    margin-top: 1rem;
+}
+.link{
+    width: 2.5rem;
+    border-radius: .5rem;
+    margin: .5rem;
+}
