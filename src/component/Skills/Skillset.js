@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Skills.css"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function skills() {
   return (
-    <div className='container'>
+    <div className='container' id='skills'>
       <div className="tech-skill">
         <h1>Tech-Skills</h1>
         <ul>

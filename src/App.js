@@ -1,7 +1,6 @@
-
 import NavBar from "./component/navBar/NavBar";
 import Introduction from "./component/Introduction/Introduction";
-import Skills from "./component/Skills/Skills";
+import Skills from "./component/Skills/Skillset"
 import Contact from "./component/Contact/Contact";
 import About from "./component/About/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

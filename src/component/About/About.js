@@ -3,7 +3,7 @@ import './About.css'
 
 export default function About() {
   return (
-    <div className="about container">
+    <div className="about container" id='about'>
         <div className="row my-3 d-flex justify-content-evenly">
             <div className="card mx-1 col-md-5 text-white bg-dark mb-3" >
                 <div className="card-header"><h4>Current Education</h4></div>
@@ -15,7 +15,7 @@ export default function About() {
 
         </div>
         <div className="card col-md-5 mx-1 text-white bg-dark mb-3" >
-            <div className="card-header"><h4>Class - 10<sup>th</sup> </h4></div>
+            <div className="card-header"><h4>std. - 10<sup>th</sup> </h4></div>
                 <div className="card-body">
                 <h5 className="card-title">Indian Public School, Purnea(Bihar)</h5>
                 <hr />
@@ -23,7 +23,7 @@ export default function About() {
             </div> 
         </div>
         <div className="card col-md-5 mx-1 text-white bg-dark mb-3" >
-                <div className="card-header"><h4>Class - 12<sup>th</sup> </h4></div>
+                <div className="card-header"><h4>std. - 12<sup>th</sup> </h4></div>
                     <div className="card-body">
                     <h5 className="card-title">Millia Convent English School, Purnea(Bihar)</h5>
                     <hr />
